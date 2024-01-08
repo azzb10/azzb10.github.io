@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/logo.svg" />
+    <script src="https://kit.fontawesome.com/276b4bee9e.js" crossorigin="anonymous"></script>
+    <title>Debora Zandonai</title>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="./assets/images/logo.svg" alt=""></div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#sobre-mim">About</a></li>
+                        <li><a href="#conhecimentos">Stacks</a></li>
+                        <li><a href="#projetos">Projects</a></li>
+                        <li><a href="mailto:debohzandonaii@gmail.com" id="menu-buttom">Contact</a></li>
+                        <li><a href="https://github.com/DeboraZandonai" target="_blank"><i class="fa fa-github"aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/debora-zandonai-4ab092195/" target="_blank"><i class="fa fa-linkedin-square"aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Hello World! My name is</p>
+                        <h1>Debora Zandonai</h1>
+                        <h2>Software developer</h2>
+                        <p>Software developer, passionate about technologies. I work on the Front-end with a focus on the JavaScript and TypeScript ecosystem. Using ReactJs and ReactNative. Currently studying Computer Engineering.</p>
+                        <a href="#sobre-mim" class="buttom">Know more</a>
+                    </div>
+                    <div class="banner-direita">
+                        <img src="./assets/images/avatar.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="icone-rolagem">
+               <img src="./assets/images/mouse1.png" alt="">
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img src="./assets/images/debora.svg">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Who am I</p>
+                            <h1>About me</h1>
+                        </div>
+                        <p>Enchanted by technology, I had my first contact with programming at 13, using Python. At 15 I was introduced to web and mobile development, using ReactJs and ReactNative. Since then, I continue to study and develop projects in order to master the JavaScript language ecosystem. Always looking to create solutions combining design and interactivity for a better user experience. Which made me a person fascinated by problem solving.</br></br>My next goals are to carry out the Exchange and achieve the fluency I've been dreaming of, along with my seniority and being an expert in the area I love so much.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1ZS8xwt23iHhlsAs0kaie9h6r78wFuh9g/view?usp=sharing" target="_blank" class="buttom">Download CV</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>My knowledge</p>
+                        <h1>Stacks</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" width="50" height="50" />
+                            <h2>HTML</h2>
+                            <p>HTML is a markup language used in building web pages. HTML documents can be interpreted by browsers.</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" width="50" height="50"/>
+                            <h2>CSS</h2>
+                            <p>CSS is a style sheet language that is used to define documents written in HTML markup language.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50" height="50"/>
+                            <h2>JavaScript</h2>
+                            <p>JavaScript is a structured, multi-paradigm, weak dynamically typed, high-level scripting interpreted programming language.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" width="50" height="50"/>
+                            <h2>TypeScript</h2>
+                            <p>TypeScript is an open source programming language developed by Microsoft. It is a strict syntactic superset of JavaScript and adds optional static typing to the language.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50" />
+                            <h2>ReactJs</h2>
+                            <p>React is an open source JavaScript library focused on creating user interfaces on web pages.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50" />
+                            <h2>ReactNative</h2>
+                            <p>React Native is a Javascript library created by Facebook. It is used to develop applications for Android and iOS systems natively.</p>
+                            </div>   
+                        </div>
+                        <div class="card desativado"> 
+                        </div>
+
+                        <div class="card desativado">
+                            
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="titulo">
+                        <p>My projects</p>
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="projetos-cards">
+                        <div class="projetos-card">
+                            <img src="./portifolioImages/1683218606020.jpeg" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>GamePlay</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria reactnative">React Native</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>App with the objective of connecting with friends to organize games. There may be duels, games, ranked matches, among others.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/DeboraZandonai/GamePlay" target="_blank"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/gofinances.svg" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>GoFinances</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria reactnative">React Native</div>
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Gofinances is a simple and easy finance control app. Being able to control the entry and exit, and expense control.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/DeboraZandonai/Ignite-Gofinances" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="projetos-card">
+                            <img src="./assets/images/todo.svg" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>To.Do!</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria reactnative">React Native</div>
+                                        <!-- <div class="projeto-card-desc-categoria html">HTML</div>
+                                        <div class="projeto-card-desc-categoria css">CSS</div> -->
+                                    </div>
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>To.Do, is a simple task control app/crud.</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/DeboraZandonai/Ignite-Conceitos-ReactNative" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
